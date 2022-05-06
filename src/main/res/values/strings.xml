@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MusicApp Wannabe</string>
+    <string name="Hello_Canim">Hello Text</string>
+    <string name="loginButton">LOG IN</string>
+    <string name="registerButton">REGISTER</string>
+    <string name="createaccButton">Create My Account</string>
+    <string name="password">Password</string>
+    <string name="password2">Password Again</string>
+    <string name="username">Username</string>
+    <string name="email">E-Mail</string>
+    <string name="phoneNo">Phone Number</string>
+    <string name="forgotpasswordButton">Forgot Password</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="registerText">Don\'t Have an Account?</string>
+    <string name="remainingAttempts">Remaining Attempts: 3</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="song">Song</string>
+
+</resources>

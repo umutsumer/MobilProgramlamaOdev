@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    >
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#30ffffff"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#30ffffff"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#000000" />
+    <EditText
+        android:id="@+id/editPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#30ffffff"
+        android:hint="@string/password2"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/editPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#30ffffff"
+        android:hint="@string/phoneNo"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/editMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#30ffffff"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:layout_marginBottom="32dp"
+        android:textColorHint="#000000" />
+
+
+    <Button
+        android:id="@+id/createaccButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp"
+        android:text="@string/createaccButton" />
+
+
+<!--    <Button-->
+<!--        android:id="@+id/loginButton"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:text="@string/loginButton"-->
+<!--        />-->
+
+
+</LinearLayout>

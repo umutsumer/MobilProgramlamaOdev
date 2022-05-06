@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    >
+
+    <EditText
+        android:id="@+id/editUsernameLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#30ffffff"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/editPasswordLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#30ffffff"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#000000" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:minHeight="48dp"
+        android:text="@string/loginButton"
+       />
+    <!-- <Button
+        android:id="@+id/forgotpasswordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minHeight="48dp"
+        android:text="@string/forgotpasswordButton"
+        /> -->
+
+    <TextView
+        android:id="@+id/remainingAttempts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:text="@string/remainingAttempts"
+        />
+
+    <TextView
+        android:id="@+id/RegisterText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginTop="48dp"
+        android:text="@string/registerText" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp"
+        android:text="@string/registerButton" />
+
+
+
+        </LinearLayout>
+
